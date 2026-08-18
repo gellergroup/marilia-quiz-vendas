@@ -414,13 +414,13 @@ function App() {
               <p><strong>Ela existe, se chama SB Shoes, e hoje está em mais de 250 lojas pelo Brasil.</strong></p>
               <p>Esse presente não está no site, não está no meu perfil e não vai para quem saiu no meio do caminho. Ele é para as pouquíssimas mulheres compromissadas o suficiente com a própria marca para chegar até aqui.</p>
               <p><b>Sim, estou falando de você.</b></p>
-            <button type="button" className={`coupon-box ${couponCopied ? 'is-copied' : ''}`} onClick={copyCoupon} aria-label="Copiar cupom VITRINE20">
-              <span className="coupon-label">Cupom especial</span>
-              <span className="coupon-code">VITRINE20</span>
-              <span className="coupon-desc">20% de desconto em qualquer par da SB Shoes</span>
-              <span className="coupon-copy-status" aria-live="polite">{couponCopied ? <><Check size={14}/> Cupom copiado!</> : <><Copy size={14}/> Toque para copiar</>}</span>
-            </button>
-              <a href="https://sbshoes.com.br" target="_blank" rel="noreferrer" className="shop-button">CONHECER A SB SHOES <ArrowUpRight size={19} /></a>
+              <button type="button" className={`coupon-box ${couponCopied ? 'is-copied' : ''}`} onClick={copyCoupon} aria-label="Copiar cupom VITRINE20">
+                <span className="coupon-label">Cupom especial</span>
+                <span className="coupon-code">VITRINE20</span>
+                <span className="coupon-desc">20% de desconto em qualquer par da SB Shoes</span>
+                <span className="coupon-copy-status" aria-live="polite">{couponCopied ? <><Check size={14} /> Cupom copiado!</> : <><Copy size={14} /> Toque para copiar</>}</span>
+              </button>
+              <a href="https://www.mysbshoes.com.br/" target="_blank" rel="noreferrer" className="shop-button">CONHECER A SB SHOES <ArrowUpRight size={19} /></a>
             </div>
           </section>
 
